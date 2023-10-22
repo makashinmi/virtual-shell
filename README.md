@@ -1,19 +1,19 @@
-# About 
-This project is a simple CLI interface which emulates Linux bash session and uses .zip files as the file system
+## About 
+This project is a simple CLI app which emulates a Linux bash session using .zip files as the file system.
 
-# Contents 
-1. [Installation](#installation)
-2. [How to use it](#how-to-use-it)
-3. [Documentation](#documentation)
+## Contents 
+1. [Installation](##installation)
+2. [How to use it](##how-to-use-it)
+3. [Documentation](##documentation)
 
-# Installation 
+## Installation 
 The project uses the syntax avaliable since Python 3.10. The perfomance was tested under Manjaro Linux OS. 
 
 Download the source code using `git clone https://github.com/makashinmi/virtual-shell.git && cd virtual-shell/`
 
 To start up the program, run `python main.py demo.zip`
 
-# How to use it 
+## How to use it 
 The vshell currently supports the following commands:
 
 - **cat** *path* — print the contents of a file under *path* 
@@ -23,5 +23,5 @@ The vshell currently supports the following commands:
 
 You can use both absolute and relative path when specifying the *path* argument.
 
-# Documentation 
+## Documentation 
 *Coming soon... Maybe. Unlikely, to be honest.*
