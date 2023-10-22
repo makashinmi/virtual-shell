@@ -16,9 +16,9 @@ To start up the program, run `python main.py demo.zip`
 ## How to use it 
 The vshell currently supports the following commands:
 
-- **cat** *path* — print the contents of a file under *path* 
-- **cd** *path* — change the current working directory to the directory under *path* 
-- **ls** *path* — print the contents of a directory under *path* (unless specified, the current working directory is used) 
+- **cat** path — print the contents of a file under *path* 
+- **cd** path — change the current working directory to the directory under *path* 
+- **ls** path — print the contents of a directory under *path* (unless specified, the current working directory is used) 
 - **pwd** — show the absolute path to the current working directory 
 
 You can use both absolute and relative path when specifying the *path* argument.
