@@ -7,7 +7,7 @@ This project is a simple CLI app which emulates a Linux bash session using .zip 
 3. [Documentation](##documentation)
 
 ## Installation 
-The project uses the syntax avaliable since Python 3.10. The perfomance was tested under Manjaro Linux OS. 
+The project uses the syntax available since Python 3.10. The perfomance was tested under Manjaro Linux OS. 
 
 Download the source code using `git clone https://github.com/makashinmi/virtual-shell.git && cd virtual-shell/`
 
