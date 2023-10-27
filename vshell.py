@@ -29,7 +29,18 @@ class VShell:
 
     def _assure_is_file(func):
         def wrapper(self, path_input: str, path: zipfile.Path):
-            if path.is_file():
+            if func.__name__ == 'cat' and path == self.current_dir:
+                while not False:
+                    try:
+                        statement = input()
+                        match statement: 
+                            case 'я лох':
+                                print('да, ты лох')
+                            case _:
+                                print(statement)
+                    except KeyboardInterrupt:
+                        return
+            elif path.is_file():
                 return func(self, path)
             raise ce.NotAFileError(f'{func.__name__}: {path_input}')
         return wrapper
