@@ -73,4 +73,4 @@ class VShell:
         return list(dir_.name for dir_ in path.iterdir())
 
     def pwd(self):
-        return f'/{"".join(self.current_dir.at.split("/"))}'
+        return f'/{"/".join(self.current_dir.at.split("/"))}'
