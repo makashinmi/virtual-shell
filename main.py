@@ -26,6 +26,8 @@ if __name__ == '__main__':
                 if command_input:
                     command = command_input[0]
                     args = command_input[1:] if len(command_input) > 1 else ['']
+                else:
+                    command, args = '', ['']
                 command_output = None
 
                 match command:
